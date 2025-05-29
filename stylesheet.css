@@ -37,6 +37,10 @@ section {
     margin:50px auto;
     list-style-position: inside;
 }
+a {
+    color: #4E80EE;
+    text-decoration: none;
+}
 section:first-of-type {
     height: 275px;
     padding-bottom: 50px;
@@ -47,4 +51,26 @@ li {
 }
 span {
     font-weight: bold;
+}
+
+@media (max-width:640px)
+{
+    header {
+        padding: 50px 0px;
+        font-size:0.7rem;
+    }
+    section{
+        height:200px;
+        width:90%;
+    }
+    section:first-of-type{
+        height:220px;
+        width:90%;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    li,p {
+        font-size: 0.85rem;
+    }
 }
