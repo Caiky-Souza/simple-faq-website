@@ -1,0 +1,50 @@
+* {
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
+header {
+    background-color: white;
+    padding:50px;
+    text-align: center;
+}
+h1, .subtitle {
+    background-color: white;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:250px;
+    width:50%;
+    margin:50px auto;
+    list-style-position: inside;
+}
+section:first-of-type {
+    height: 275px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid hsla(0, 0%, 50%, 0.562);
+}
+li {
+    margin-bottom: 5px;
+}
+span {
+    font-weight: bold;
+}
