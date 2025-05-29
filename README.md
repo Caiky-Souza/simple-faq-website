@@ -1,7 +1,7 @@
 # Simple FAQ Website
 This is a basic implementation of a FAQ for HTML5 and CSS3 improvement purpose only.
 
-![thumbnail.jpg]()
+![thumbnail.jpg](https://github.com/Caiky-Souza/simple-faq-website/blob/master/thumbnail.jpg)
 ## Functionalities
 - Anchor's can be redirected if configured properly
 
